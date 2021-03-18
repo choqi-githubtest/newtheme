@@ -1,8 +1,22 @@
-<footer class="{{ .Site.Params.background_color_class | default "bg-black" }} bottom-0 w-100 pa3" role="contentinfo">
-  <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="{{ .Site.BaseURL }}" >
-    &copy; {{ with .Site.Copyright | default .Site.Title }} {{ . | safeHTML }} {{ now.Format "2006"}} {{ end }}
-  </a>
-    <div>{{ partial "social-follow.html" . }}</div>
-  </div>
+<footer class="{{ .Site.Params.background_color_class | default "bg-green { background-color: #15af9c }" }} bottom-0 w-100 pa3" role="contentinfo">
+    <div class="flex flex-column">
+        <div class=" pa3 pa4-ns flex justify-center">
+            <a class="f6 f5-l link bg-animate white hover-light-green  dib pa3 ph4-l fw7 f2-s {font-family: Montserrat }" href="https://choqi.co.jp/#mission">MISSION</a>
+            <a class="f6 f5-l link bg-animate white hover-light-green  dib pa3 ph4-l fw7 f2-s {font-family: Montserrat }" href="https://choqi.co.jp/#service">SERVICE</a>
+            <a class="f6 f5-l link bg-animate white hover-light-green  dib pa3 ph4-l fw7 f2-s {font-family: Montserrat }" href="https://choqi.co.jp/#about">ABOUT</a>
+            <a class="f6 f5-l link bg-animate white hover-light-green  dib pa3 ph4-l fw7 f2-s {font-family: Montserrat }" href="https://choqi.co.jp/#message">MESSAGE</a>
+            <a class="f6 f5-l link bg-animate white hover-light-green  dib pa3 ph4-l fw7 f2-s {font-family: Montserrat }" href="https://choqi.co.jp/#new">NEWS</a>
+            <a class="f6 f5-l link bg-animate white hover-light-green  dib pa3 ph4-l fw7 f2-s {font-family: Montserrat }" href="https://choqi.co.jp/#company">COMPANY</a>
+            <a class="f6 f5-l link bg-animate white hover-light-green  dib pa3 ph4-l fw7 f2-s {font-family: Montserrat }" href="https://choqi-contact.powerappsportals.com/">CONTACT</a>
+        </div>
+        <div class="tc">
+            <a href="https://choqi.co.jp/" class="f3 fw2 hover-white no-underline dib pa3">
+                <img src="/web/images/logo_index02.png" class="w100 mw5-ns">
+            </a>
+        </div>
+    </div>
+    <div class="flex justify-between bg-white">
+        <a class="f6 mh7 fw4 hover-black-50 no-underline black dn dib-ns pv2 ph3" href="https://choqi.co.jp/privacypolicy.html">プライバシーポリシー</a>
+        <a class="f7 fw4 hover-black-50 no-underline black dn dib-ns pv2 ph3" href="https://choqi.co.jp">© ChoQi Co., Ltd.</a>
+    <div>
 </footer>
